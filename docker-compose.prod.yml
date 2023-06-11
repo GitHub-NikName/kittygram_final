@@ -37,7 +37,7 @@ services:
       - "9000:80"
     volumes:
       - static:/static
-      - media:/media
+      - media:/app_media
     depends_on:
       - backend
     restart: always
