@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # Папки, создаваемые средой разработки
-.idea
+.idea/
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -149,4 +149,5 @@ dmypy.json
 media/
 
 # Others
-node_modules
+node_modules/
+*.sqlite3

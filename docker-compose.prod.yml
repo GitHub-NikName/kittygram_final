@@ -14,7 +14,7 @@ services:
     restart: always
 
   backend:
-    build: ./backend/
+    image: qjgns/kittygram_backend
     env_file: .env
     volumes:
       - static:/backend_static
@@ -25,13 +25,13 @@ services:
 
   frontend:
     env_file: .env
-    build: ./frontend/
+    image: qjgns/kittygram_frontend
     command: cp -r /app/build/. /static/
     volumes:
       - static:/static
 
   gateway:
-    build: ./nginx/
+    image: qjgns/kittygram_gateway
     env_file: .env
     ports:
       - "9000:80"
