@@ -1,3 +1,7 @@
+# Проекты:
+Taski: https://m.servebeer.com/  
+Kittygram: https://infra.didns.ru/
+
 #  Как работать с репозиторием финального задания
 
 ## Что нужно сделать
